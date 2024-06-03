@@ -87,7 +87,7 @@ function jl_viewHistory(config){
     }
     if( viewHistory && config.addHistory) {
         var page = {
-            "title": document.getElementsByClassName("Xc_psot_title")[0].innerText,
+            "title": document.getElementsByClassName("Xc_reads_title")[0].innerText,
             "url": location.href 
         };
         viewHistory.addHistory(page);
