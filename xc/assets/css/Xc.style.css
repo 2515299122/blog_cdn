@@ -265,7 +265,7 @@
 .Xc_reads_article h1,.Xc_reads_article h2,.Xc_reads_article h3,.Xc_reads_article h4,.Xc_reads_article h5,.Xc_reads_article h6{color:var(--main);line-height:24px;margin-bottom:18px;position:relative}
 .Xc_reads_article h1{font-size:22px;padding:0 15px 0 20px}
 .Xc_reads_article h1::before{content:'¶';color:var(--theme);position:absolute;top:0;left:0;font-size:22px}
-.Xc_reads_article h2{font-size:20px;padding:0 15px}
+.Xc_reads_article h2{font-size:21px;padding:8px 15px;border-bottom: 1px solid var(--classB);}
 .Xc_reads_article h2::before{content:'';position:absolute;top:10%;bottom:10%;left:0;width:4px;border-radius:2px;background:var(--theme)}
 .Xc_reads_article h3{font-size:18px;padding:0 15px}
 .Xc_reads_article h3::before{content:'';position:absolute;top:0;bottom:0;left:0;width:4px;background:var(--theme);border-radius:0 4px 4px 0}
