@@ -20932,7 +20932,7 @@
     }
     handleCodeBlock(e) {
       const t =
-          "ABAP+Python+Java+PHP+html+css+js+markdown+sql+C"
+          "go+Python+Java+php+html+css+js+markdown+sql+C+bash+cpp+ruby"
             .split("+")
             .sort((e, t) => e.localeCompare(t)),
         n = sessionStorage.getItem("selectType") || "";
